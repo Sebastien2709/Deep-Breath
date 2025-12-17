@@ -1,0 +1,26 @@
+# --- Données Lourdes (NE PAS TOUCHER) ---
+subset*/
+*.zip
+*.mhd
+*.raw
+*.zraw
+
+# --- Datasets Numpy générés ---
+*.npy
+
+# --- Fichiers système inutiles ---
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# --- Environnements virtuels ---
+env/
+venv/
+.env
+
+# --- Modèles (S'ils font +100Mo, GitHub bloque) ---
+# Décommente la ligne dessous si ton fichier .keras est trop gros
+# *.keras
+# *.h5
