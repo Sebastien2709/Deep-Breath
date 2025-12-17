@@ -11,7 +11,7 @@
 
 *(Insère ici une capture d'écran de ton interface Streamlit montrant une détection)*
 
-![Interface Demo](demo_screenshot.png)
+![Interface Demo](image.png)
 
 ## 🎯 Objectif
 
