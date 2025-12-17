@@ -9,9 +9,8 @@
 
 ## 🖼️ Démonstration
 
-*(Insère ici une capture d'écran de ton interface Streamlit montrant une détection)*
 
-![Interface Demo](image.png)
+![Interface Demo](test_images/image.png)
 
 ## 🎯 Objectif
 
@@ -38,7 +37,7 @@ Nous avons expérimenté avec **VGG16**, mais la précision plafonnait à 65%. L
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/TON_USER/DeepBreath.git
+git clone https://github.com/Sebastien2709/Deep-Breath.git
 cd DeepBreath
 ```
 
