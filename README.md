@@ -7,7 +7,7 @@
 
 > **Deep Breath** est une solution d'intelligence artificielle conçue pour assister le diagnostic radiologique en détectant les nodules pulmonaires suspects sur des scanners CT (Tomodensitométrie) avec une précision de 94%.
 
-## 🖼️ Démonstration :
+## 🖼️ Démonstration
 
 
 ![Interface Demo](test_images/image.png)
