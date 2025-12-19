@@ -9,11 +9,11 @@ st.set_page_config(page_title="AI Cancer Detector", page_icon="🫁", layout="ce
 # --- CHARGEMENT DU MODÈLE (Mis en cache pour être rapide) ---
 @st.cache_resource
 def load_model():
-    # Charge le fichier que tu as créé à l'étape précédente
-    return tf.keras.models.load_model('meilleur_modele.keras')
+
+    return tf.keras.models.load_model('models/meilleur_modele.keras')
 
 try:
-    model = load_model('models/meilleur_modele.keras')
+    model = load_model()
 except:
     st.error("Erreur : Le fichier 'meilleur_modele.keras' est introuvable.")
     st.stop()
